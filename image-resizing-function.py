@@ -48,7 +48,7 @@ def handle_s3_record(record):
         print("Error: Invalid S3 event record structure")
 
 
-def resize_and_compress_image(image_data, quality=75):
+def resize_and_compress_image(image_data, quality=25):
     # Open the image using PIL
     image = Image.open(BytesIO(image_data))
 
