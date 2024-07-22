@@ -27,7 +27,7 @@ We used the given PYTHON CODE.
 
 We give certain Permissions to our Lambda Function by attaching certain policies to it.
 Also we added S3 bucket as a _**TRIGGER**_ for our Lambda Function.
-We add python Pillow Library fir Lambda Function (We can do it by Importing it in code but that is time consuming).
+We add python Pillow Library for Lambda Function (We can do it by Importing it in code but that is time consuming).
 (arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p39-pillow:1) adding in layer SPECIFIC ARN.
 
 Now in source bucket we are adding a .jpg File to resize
